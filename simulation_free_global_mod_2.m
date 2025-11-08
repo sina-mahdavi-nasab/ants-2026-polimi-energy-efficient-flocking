@@ -128,7 +128,7 @@ while ~batteryEmpty
         input_i = inputs(:,i);        % 10 × 1 sensory vector
 
         % forward pass + Hebbian update for THIS agent only
-        [vel_i, W1, W2, W3] = hebbianStepPeter(input_i, W(i).W1, W(i).W2, W(i).W3, rules);
+        [vel_i, W1, W2, W3] = hebbianStep(input_i, W(i).W1, W(i).W2, W(i).W3, rules);
 
         vel(i,:) = vel_i.';           % store desired (v, ω)
         W(i).W1  = W1;                % keep the learned weights
@@ -658,5 +658,6 @@ function F_drag = dragforce(agents, wind_rad, xVals, yVals, powerVals,n_agents,v
 
     end
 end
+
 
 
