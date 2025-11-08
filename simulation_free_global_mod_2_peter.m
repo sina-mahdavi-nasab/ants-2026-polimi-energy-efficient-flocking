@@ -1,4 +1,4 @@
-function [eff, dist_travelled, average_batt, collision_counter] = simulation_free_global_mod_2_peter(rules,seed)
+function [eff, dist_travelled, average_batt, collision_counter] = simulation_free_global_mod_2(rules,seed)
 %% parameter setting
 % rng(1); %set the random seed
     if nargin > 1          % was a 3-rd arg passed in?
@@ -658,4 +658,5 @@ function F_drag = dragforce(agents, wind_rad, xVals, yVals, powerVals,n_agents,v
 
     end
 end
+
 
