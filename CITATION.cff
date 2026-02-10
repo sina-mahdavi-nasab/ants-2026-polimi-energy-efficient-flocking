@@ -1,16 +1,16 @@
 cff-version: 1.2.0
-message: "If you use this repository, please cite both the paper and this code as below."
+message: "If you use this software, please cite it as below."
 authors:
   - family-names: "Mahdavi Nasab"
     given-names: "Sina"
     affiliation: "Politecnico di Milano"
-    orcid: "https://orcid.org/0000-1111-2222-3333"
+    # orcid: "https://orcid.org/0000-1111-2222-3333"  <-- REMOVED (Invalid ORCIDs crash Zenodo)
   - family-names: "Singh"
     given-names: "Dushyant"
-    orcid: "https://orcid.org/1111-2222-3333-4444"
+    # orcid: "https://orcid.org/1111-2222-3333-4444"  <-- REMOVED
   - family-names: "Klapwijk"
     given-names: "Peter"
-    orcid: "https://orcid.org/2222-3333-4444-5555"
+    # orcid: "https://orcid.org/2222-3333-4444-5555"  <-- REMOVED
   - family-names: "Jetti"
     given-names: "Georges"
     orcid: "https://orcid.org/0009-0007-9682-4838"
@@ -26,9 +26,10 @@ authors:
     orcid: "https://orcid.org/0000-0002-2213-8356"
 
 title: "Energy-Efficient Flocking (ANTS 2026, PoliMi) — MATLAB Implementation"
-version: "1.0.0"
-date-released: 2025-11-08
-license: "MIT"
+version: 1.0.2
+doi: 10.5281/zenodo.18602731
+date-released: 2026-02-10
+license: MIT
 repository-code: "https://github.com/sina-mahdavi-nasab/ants-2026-polimi-energy-efficient-flocking"
 
 preferred-citation:
